@@ -104,7 +104,7 @@
           <div class="item">
             <div class="box">
               <div class="img-box">
-                <img src="/img/bedroom" alt="" />
+                <img src="/img/bedroom.jpg" alt="" />
                 <a href="" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
