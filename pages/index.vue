@@ -104,7 +104,7 @@
           <div class="item">
             <div class="box">
               <div class="img-box">
-                <img src="/img/img_2796.jpg" alt="" />
+                <img src="/img/bedroom" alt="" />
                 <a href="" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
@@ -121,7 +121,7 @@
           <div class="item">
             <div class="box">
               <div class="img-box">
-                <img src="/img/img_2800.jpg" alt="" />
+                <img src="/img/tile.jpg" alt="" />
                 <a href="" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
@@ -138,7 +138,7 @@
           <div class="item">
             <div class="box">
               <div class="img-box">
-                <img src="/img/img_2793.jpg" alt="" />
+                <img src="/img/steps.jpg" alt="" />
                 <a href="" class="pin_link">
                   <i class="fa fa-link" aria-hidden="true"></i>
                 </a>
