@@ -38,11 +38,19 @@
         </li>
       </ul>
       <div class="quote_btn-container">
-        <a href="" class="quote_btn"> Get A Quote </a>
+        <a href="/contact" class="quote_btn"> Get A Quote </a>
       </div>
     </div>
   </nav>
 </template>
 <script setup>
-const collapsed = ref(false);
+const collapsed = ref(true);
+const viewport = useViewport();
+watch(viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {
+  if (viewport.isGreaterThan("tablet")) {
+    collapsed.value = false;
+  } else {
+    collapsed.value = true;
+  }
+});
 </script>

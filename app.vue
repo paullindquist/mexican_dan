@@ -1,6 +1,5 @@
 <template>
   <div class="hero_area">
-    <!-- header section strats -->
     <header class="header_section">
       <div class="header_bottom">
         <div class="container-fluid">
@@ -8,12 +7,9 @@
         </div>
       </div>
     </header>
-    <!-- end header section -->
-    <!-- slider section -->
     <section class="slider_section">
       <ClientOnly> <Hero /></ClientOnly>
     </section>
-    <!-- end slider section -->
   </div>
   <NuxtLayout>
     <NuxtPage />
@@ -28,10 +24,6 @@
         <a href="mailto:danieljalvarez@yahoo.com">
           <i class="fa fa-envelope" aria-hidden="true"></i>
           <span> Email : danieljalvarez@yahoo.com </span>
-        </a>
-        <a href="">
-          <i class="fa fa-map-marker" aria-hidden="true"></i>
-          <span> Location </span>
         </a>
       </div>
     </div>

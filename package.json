@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "jquery": "^3.7.1",
+    "nuxt-viewport": "^2.0.6",
     "owl.carousel": "^2.3.4"
   }
 }
