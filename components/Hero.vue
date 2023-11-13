@@ -40,6 +40,7 @@
     </ol>
   </div>
 </template>
-<script>
+<script setup>
+import "owl.carousel/dist/assets/owl.carousel.css";
 const items = ["Over 25 Years of Flooring Experience", "Carpet Installation", "Tile and Stone Flooring"];
 </script>

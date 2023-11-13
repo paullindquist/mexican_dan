@@ -289,26 +289,4 @@
       </div>
     </div>
   </section>
-  <!-- end contact section -->
-
-  <!-- info section -->
-  <section class="info_section">
-    <div class="container">
-      <div class="contact_nav">
-        <a href="tel:+17198319505">
-          <i class="fa fa-phone" aria-hidden="true"></i>
-          <span> Call : (719) 831-9505 </span>
-        </a>
-        <a href="mailto:danieljalvarez@yahoo.com">
-          <i class="fa fa-envelope" aria-hidden="true"></i>
-          <span> Email : danieljalvarez@yahoo.com </span>
-        </a>
-        <a href="">
-          <i class="fa fa-map-marker" aria-hidden="true"></i>
-          <span> Location </span>
-        </a>
-      </div>
-    </div>
-  </section>
-  <!-- end info_section -->
 </template>
