@@ -21,9 +21,9 @@
           <i class="fa fa-phone" aria-hidden="true"></i>
           <span> Call : (719) 831-9505 </span>
         </a>
-        <a href="mailto:danieljalvarez@yahoo.com">
+        <a href="mailto:danieljralvarez@yahoo.com">
           <i class="fa fa-envelope" aria-hidden="true"></i>
-          <span> Email : danieljalvarez@yahoo.com </span>
+          <span> Email : danieljralvarez@yahoo.com </span>
         </a>
       </div>
     </div>
