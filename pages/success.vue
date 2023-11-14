@@ -5,3 +5,15 @@
     <p>In the meantime, feel free to explore more on our website.</p>
   </div>
 </template>
+<style scoped>
+.container {
+  padding: 3rem;
+  margin: 0 auto;
+  max-width: 600px;
+}
+h1 {
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+</style>

@@ -78,7 +78,7 @@
               Welcome to Mexican Dan's, where flooring installation is not just a job, but a passion. We are a dedicated team of flooring experts with over 25 years of experience
               in the industry, committed to enhancing the beauty, comfort, and value of your spaces.
             </p>
-            <a href=""> Read More </a>
+            <a href="/about"> Read More </a>
           </div>
         </div>
         <div class="col-md-6">
@@ -257,7 +257,7 @@
           <h2>Contact Dan!</h2>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="contact">
         <div class="col-lg-4 col-md-5 offset-md-1">
           <div class="form_container">
             <form action="https://api.web3forms.com/submit" method="POST">

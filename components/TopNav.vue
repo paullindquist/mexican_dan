@@ -162,13 +162,13 @@
         </li>
       --></ul>
       <div class="quote_btn-container">
-        <NuxtLink href="/contact" class="quote_btn"> Get A Quote </NuxtLink>
+        <NuxtLink href="/#contact" class="quote_btn"> Get A Quote </NuxtLink>
       </div>
     </div>
   </nav>
 </template>
 <script setup>
-const collapsed = ref(true);
+const collapsed = ref(false);
 const viewport = useViewport();
 watch(viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {
   if (viewport.isGreaterThan("tablet")) {
