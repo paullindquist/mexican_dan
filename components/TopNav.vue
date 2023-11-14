@@ -153,13 +153,14 @@
         <li class="nav-item">
           <NuxtLink class="nav-link" href="/gallery">Gallery</NuxtLink>
         </li>
+        <!--
         <li class="nav-item">
           <NuxtLink class="nav-link" href="/testimonials">Testimonials</NuxtLink>
         </li>
         <li class="nav-item">
           <NuxtLink class="nav-link" href="/contact">Contact Us</NuxtLink>
         </li>
-      </ul>
+      --></ul>
       <div class="quote_btn-container">
         <NuxtLink href="/contact" class="quote_btn"> Get A Quote </NuxtLink>
       </div>

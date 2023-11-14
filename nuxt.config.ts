@@ -2,5 +2,5 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   plugins: [{ src: "~/plugins/jquery.js", mode: "client" }],
-  modules: ["nuxt-viewport"],
+  modules: ["nuxt-viewport", "@nuxt/image"],
 });

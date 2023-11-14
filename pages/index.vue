@@ -260,7 +260,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-5 offset-md-1">
           <div class="form_container">
-            <form action="">
+            <form action="https://api.web3forms.com/submit" method="POST">
               <div>
                 <input type="text" placeholder="Your Name" />
               </div>
@@ -272,6 +272,8 @@
               </div>
               <div>
                 <input type="text" class="message-box" placeholder="Message" />
+                <input type="hidden" name="redirect" value="https://mexicandansfloorcovering.com/success" />
+                <input type="hidden" name="access_key" value="24c8c33f-3a46-47f4-845b-a414ce31cbc4" />
               </div>
               <div class="btn_box">
                 <button>SEND</button>
