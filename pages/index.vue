@@ -262,16 +262,16 @@
           <div class="form_container">
             <form action="https://api.web3forms.com/submit" method="POST">
               <div>
-                <input type="text" placeholder="Your Name" />
+                <input name="name" type="text" placeholder="Your Name" />
               </div>
               <div>
-                <input type="text" placeholder="Phone Number" />
+                <input name="phone" type="text" placeholder="Phone Number" />
               </div>
               <div>
-                <input type="email" placeholder="Email" />
+                <input name="email" type="email" placeholder="Email" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <input name="message" type="text" class="message-box" placeholder="Message" />
                 <input type="hidden" name="redirect" value="https://mexicandansfloorcovering.com/success" />
                 <input type="hidden" name="access_key" value="24c8c33f-3a46-47f4-845b-a414ce31cbc4" />
               </div>
