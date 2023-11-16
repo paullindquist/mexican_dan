@@ -240,10 +240,6 @@ a:focus {
   padding-left: 25px;
 }
 
-.navbar-brand img {
-  width: 300px;
-}
-
 .quote_btn-container {
   display: -webkit-box;
   display: -ms-flexbox;

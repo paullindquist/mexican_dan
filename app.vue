@@ -1,11 +1,7 @@
 <template>
   <div class="hero_area">
     <header class="header_section">
-      <div class="header_bottom">
-        <div class="container-fluid">
-          <TopNav />
-        </div>
-      </div>
+      <TopNavContainer />
     </header>
     <section class="slider_section">
       <ClientOnly> <Hero /></ClientOnly>
@@ -35,7 +31,6 @@
   </footer>
 </template>
 <style>
-@import "./assets/css/bootstrap.css";
 @import "./assets/css/style.css";
 @import "./assets/css/responsive.css";
 </style>
