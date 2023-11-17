@@ -51,10 +51,11 @@
 	</section>
 </template>
 <style scoped>
-h2 {
-	font-size: 1.6rem;
-	text-align: center;
-
+.service_section .heading-container {
+	h2 {
+		font-size: 3rem;
+		color: green;
+	}
 }
 .service_section .service_container {
 	-webkit-box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.15);
@@ -108,7 +109,7 @@ h2 {
 		text-align: center;
 	}
 	.detail-box {
-		margin-bottom: 1.5rem;
+		margin-bottom: 1rem;
 	}
 	.detail-box p {
 		font-size: 1rem;

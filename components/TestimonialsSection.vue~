@@ -49,6 +49,14 @@ p.name {
 	background-color: #fff;
 	margin: 10px;
 }
+@media screen and (min-width: 768px) {
+	h3 {
+	  font-size: 1.5rem;
+	}
+	h2 {
+	  font-size: 2.5rem;
+	}
+}
 </style>
 <template>
 	<section class="testimonials-container">

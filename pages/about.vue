@@ -1,10 +1,10 @@
-<style>
-	h2 {
-		text-align: center;
-	}
-	p {
-		padding:0 2rem;
-	}
+<style scoped>
+h2 {
+  text-align: center;
+}
+p {
+  padding: 0 2rem;
+}
 </style>
 <template>
   <div class="container">

@@ -20,6 +20,10 @@
 	</section>
 </template>
 <style scoped>
+h2 {
+	font-size: 1.8rem;
+	text-align: center;
+}
 .read-more {
 	text-decoration: none;
 	text-shadow: 3px 3px 0px #1b1212;

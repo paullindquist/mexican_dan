@@ -6,7 +6,8 @@
 	align-items: center;
 }
 h2 {
-	font-size: 1.5rem;
+	font-size: 1.7rem;
+	text-align: center;
 	margin: 2rem 0;
 }
 h3 {

@@ -51,6 +51,11 @@
 	</section>
 </template>
 <style scoped>
+h2 {
+	font-size: 1.7rem;
+	text-align: center;
+
+}
 .service_section .service_container {
 	-webkit-box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.15);
 	box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.15);

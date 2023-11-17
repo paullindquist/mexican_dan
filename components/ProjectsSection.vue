@@ -16,11 +16,20 @@ img {
 }
 p {
   text-align: left;
+  font-size: .9rem;
 }
 h3 {
   font-weight: 700;
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.6rem;
+}
+@media screen and (min-width: 768px) {
+	h3 {
+	  font-size: 2rem;
+	}
+	p {
+	  font-size: 1.25rem;
+	}
 }
 </style>
 <template>
