@@ -1,8 +1,7 @@
 <style scoped>
 h2 {
-  color: var(--brand);
   font-size: 2rem;
-  text-shadow: 1px 2px 0px #1b1212;
+  margin-bottom: 0;
 }
 input {
   padding: 1rem;
@@ -10,7 +9,7 @@ input {
   margin: 1rem 0;
   display: block;
   width: 100%;
-  border: solid 1px var(--brand);
+  border: solid 1px #dfdfdf;
   border-radius: 6px;
   box-sizing: border-box;
   box-shadow: 0px 1px 3px #1b1212;
@@ -22,6 +21,12 @@ button {
   color: #fff;
   font-weight: 700;
   border-radius: 6px;
+}
+p {
+  margin-bottom: 2rem;
+}
+.form-container {
+  padding: 1rem;
 }
 @media screen and (min-width: 768px) {
 }
@@ -40,7 +45,11 @@ button {
           <h2>Contact Dan!</h2>
         </div>
       </div>
-      <div class="form_container">
+      <div class="form-container">
+        <p>
+          Thank you for considering Mexican Dan's Flooring for your project. We're excited to help you transform your space with our exceptional flooring solutions. Please fill out
+          the form below, and our team will get in touch with you shortly.
+        </p>
         <form action="https://api.web3forms.com/submit" method="POST" id="contact">
           <div>
             <input name="name" type="text" placeholder="Your Name" />
