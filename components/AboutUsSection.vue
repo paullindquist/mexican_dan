@@ -27,6 +27,7 @@ h2 {
 .read-more {
 	text-decoration: none;
 	text-shadow: 3px 3px 0px #1b1212;
+	margin: 0 auto;
 }
 .copy-container {
 	display: flex;
@@ -66,9 +67,11 @@ h2 {
 		.copy-container p {
 			font-size: 1.25rem;
 			margin: 0 auto;
-			max-width: 400px;
+			flex-basis: 40%;
+			padding: 3rem;
 		}
 		.button-and-logo-container {
+			flex-basis: 60%;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
