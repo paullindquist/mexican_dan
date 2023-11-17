@@ -19,6 +19,7 @@ p {
 }
 h3 {
   font-weight: 700;
+  margin: 0;
   font-size: 2rem;
 }
 </style>

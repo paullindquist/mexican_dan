@@ -1,10 +1,14 @@
 <style scoped>
-h5 {
+.testimonials-container {
+	padding: 2rem 0;
+	background-color: #eee;
+}
+h3 {
 	text-align: center;
 	line-height: 1;
 	margin-bottom: 0;
 	color: #1B1212;
-	font-size: .75rem;
+	font-size: 1rem;
 }
 h2 {
 	text-align: center;
@@ -42,12 +46,14 @@ p.name {
 	padding: 20px;
 	border-radius: 30px;
 	border: solid 3px var(--brand);
+	background-color: #fff;
+	margin: 10px;
 }
 </style>
 <template>
 	<section class="testimonials-container">
 		<div class="title">
-			<h5>Testimonials</h5>
+			<h3>Testimonials</h3>
 			<h2>What Dan's Customers Say:</h2>
 		</div>
 		<carousel :items-to-show="1" :autoplay="3586" :wrap-around="true" :breakpoints="breakpoints">

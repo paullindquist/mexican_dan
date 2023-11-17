@@ -32,6 +32,18 @@
 .nav-link.brand {
   background-color: var(--brand);
 }
+@media screen and (min-width: 768px) {
+	.carousel {
+		height: 333px;
+	}
+	.title {
+	  font-size: 2.5rem;
+	  margin-bottom: 4rem;
+	}
+	.slide-item {
+	  padding: 5rem;
+	}
+}
 </style>
 <template>
   <carousel :items-to-show="1" :autoplay="2523" :wrap-around="true">

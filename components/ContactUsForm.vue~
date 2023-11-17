@@ -40,16 +40,15 @@ p {
 @media screen and (min-width: 768px) {
 	.contact-container {
 		display: flex;
-
 	}
 }
 </style>
 <template>
 	<section class="contact-container">
+		<div class="heading_container">
+			<h2>Contact Dan!</h2>
+		</div>
 		<div class="form-container">
-			<div class="heading_container">
-				<h2>Contact Dan!</h2>
-			</div>
 			<p>
 			Thank you for considering Mexican Dan's Flooring for your project. We're excited to help you transform your space with our exceptional flooring solutions. Please fill out
 			the form below, and our team will get in touch with you shortly.

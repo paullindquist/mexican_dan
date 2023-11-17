@@ -1,25 +1,25 @@
 <style scoped>
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 .slide-item {
-	display: flex;
-	flex-direction: column;
-	align-items: space-between;
-	justify-content: space-between;
-	background-color: var(--brand);
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-between;
+  background-color: var(--brand);
 }
 .copy-container {
-	padding: 2rem;
-	color: #fff;
-	flex: 1;
+  padding: 2rem;
+  color: #fff;
+  flex: 1;
 }
 p {
-	text-align: left;
+  text-align: left;
 }
 h3 {
-	font-weight: 700;
-	font-size: 2rem;
+  font-weight: 700;
+  font-size: 2rem;
 }
 </style>
 <template>
@@ -27,7 +27,7 @@ h3 {
     <carousel :items-to-show="1" :autoplay="2586" :wrap-around="true" :breakpoints="breakpoints">
       <slide class="slide-item" v-for="item in items" :key="item">
         <div class="image-container">
-          <NuxtImg :src="item.img" :alt="item.heading" />
+          <img :src="item.img" :alt="item.heading" />
         </div>
         <div class="copy-container">
           <h3 class="title">{{ item.heading }}</h3>
@@ -57,10 +57,10 @@ const items = [
     copy: "Dan understands the importance of finishing your carpet installation project on time. Our team works efficiently to minimize disruption to your daily life and ensure that the project stays on schedule.",
   },
 ];
- const breakpoints = {
-	700: {
-	itemsToShow: 3,
-	snapAlign: 'center',
-	}
-}
+const breakpoints = {
+  700: {
+    itemsToShow: 3,
+    snapAlign: "center",
+  },
+};
 </script>
