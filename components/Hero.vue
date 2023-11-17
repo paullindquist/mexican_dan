@@ -50,7 +50,7 @@
     <slide class="slide-item" v-for="item in items" :key="item">
       <div class="title">{{ item }}</div>
       <div class="link-container">
-        <Button class="nav-link brand" href="/#contact">Contact Us?</Button>
+        <Button class="nav-link brand" href="/#contact">Contact Us</Button>
         <Button class="nav-link" href="/about">About Us</Button>
       </div>
     </slide>
