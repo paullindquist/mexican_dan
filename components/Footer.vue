@@ -1,75 +1,24 @@
 <style scoped>
-.client_section .box .client_info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+.info-section-container {
+	background-color: #252525;
+	padding: 2rem;
+	color: #fff;
 }
-
-.client_section .box .client_info .client_name h5 {
-  font-weight: bold;
-  color: #252525;
-  margin-bottom: 0;
-  text-transform: uppercase;
+.info-section-container a {
+	color: #fff;
+	text-decoration: none;
 }
-
-.client_section .box .client_info .client_name h6 {
-  margin-bottom: 0;
-  color: var(--brand);
-  font-weight: normal;
-  font-size: 15px;
-  text-transform: uppercase;
+.contact_nav {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
 }
-
-.client_section .box .client_info i {
-  font-size: 24px;
-  color: var(--brand);
-}
-
-.client_section .box p {
-  margin-top: 25px;
-}
-
-.client_section .box .detail-box {
-  background-color: #ffffff;
-  padding: 45px 45px 45px 85px;
-}
-
-.client_section .carousel-indicators {
-  position: unset;
-  margin: 0;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-top: 45px;
-}
-
-.client_section .carousel-indicators li {
-  background-color: var(--brand);
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  opacity: 1;
-}
-
-.client_section .carousel-indicators li.active {
-  width: 20px;
-  height: 20px;
-  background-color: #ffffff;
-}
-
 </style>
 <template>
 	<section class="info-section-container">
 		<div class="container">
 			<div class="contact_nav">
-				<div>Address:</div>
-				<div>Burlington, CO 80807</div>
+				<div>Address: Burlington, CO 80807</div>
 				<a href="tel:+17198319505">
 					<i class="fa fa-phone" aria-hidden="true"></i>
 					<span> Call : (719) 831-9505 </span>

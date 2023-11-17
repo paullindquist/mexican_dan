@@ -1,92 +1,13 @@
 <template>
   <ServiceSection />
+  <hr />
   <AboutUsSection />
+  <hr />
   <ProjectsSection />
-  <TestimonialsSection/>
-
-
-  <section class="why_us_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>Why Choose Dan?</h2>
-      </div>
-      <div class="why_us_container">
-        <div class="box">
-          <div class="img-box">
-            <img src="/img/w1.png" alt="" />
-          </div>
-          <div class="detail-box">
-            <h5>Project done on time</h5>
-            <p>At Mexican Dan's Flooring, we don't just lay floors; we lay them on schedule. Your timeline is our timeline, and we take pride in always delivering on time.</p>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="/img/w2.png" alt="" />
-          </div>
-          <div class="detail-box">
-            <h5>Always avaliable</h5>
-            <p>We're not just flooring experts; we're always here for you. Your questions, concerns, and ideas – we're just a call away, ready to assist whenever you need us.</p>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="/img/w3.png" alt="" />
-          </div>
-          <div class="detail-box">
-            <h5>Professional and responsible</h5>
-            <p>
-              We believe in the beauty of responsibility and the strength of professionalism. Our commitment to quality craftsmanship and ethical business practices is the
-              foundation of our success.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end why us section -->
-
-  <!-- contact section -->
-  <section class="contact_section layout_padding-bottom">
-    <div class="container-fluid">
-      <div class="col-lg-4 col-md-5 offset-md-1">
-        <div class="heading_container">
-          <h2>Contact Dan!</h2>
-        </div>
-      </div>
-      <div class="row" id="contact">
-        <div class="col-lg-4 col-md-5 offset-md-1">
-          <div class="form_container">
-            <form action="https://api.web3forms.com/submit" method="POST">
-              <div>
-                <input name="name" type="text" placeholder="Your Name" />
-              </div>
-              <div>
-                <input name="phone" type="text" placeholder="Phone Number" />
-              </div>
-              <div>
-                <input name="email" type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input name="message" type="text" class="message-box" placeholder="Message" />
-                <input type="hidden" name="redirect" value="https://mexicandansfloorcovering.com/success" />
-                <input type="hidden" name="access_key" value="24c8c33f-3a46-47f4-845b-a414ce31cbc4" />
-              </div>
-              <div class="btn_box">
-                <button>SEND</button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-lg-7 col-md-6 px-0">
-          <div class="map_container">
-            <div class="map">
-              <div id="googleMap"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <hr />
+  <TestimonialsSection />
+  <hr />
+  <WhyChoose />
+  <hr />
+  <ContactUsForm />
 </template>

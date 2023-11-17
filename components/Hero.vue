@@ -5,7 +5,7 @@
   background-size: cover;
   color: #fff;
   text-transform: uppercase;
-  text-shadow: 3px 3px 0px rgba(0, 0, 0, 1);
+  text-shadow: 3px 3px 0px #1b1212;
 }
 .title {
   font-size: 2rem;

@@ -20,5 +20,6 @@
 }
 body {
   font-family: "Rubik", sans-serif;
+  color: #1b1212;
 }
 </style>

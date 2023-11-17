@@ -1,83 +1,83 @@
 <style scoped>
 h5 {
-  text-align: center;
-  line-height: 1;
-  margin-bottom: 0;
+	text-align: center;
+	line-height: 1;
+	margin-bottom: 0;
+	color: #1B1212;
+	font-size: .75rem;
 }
 h2 {
-  text-align: center;
-  margin-top: 0;
-  color: var(--brand);
-  font-size: 2rem;
+	text-align: center;
+	margin-top: 0;
+	color: var(--brand);
+	font-size: 1.5rem;
 }
 img {
-  border-radius: 50%;
-  height: 56px;
-  width: 56px;
+	border-radius: 50%;
+	height: 56px;
+	width: 56px;
 }
 .title {
-  color: var(--brand);
-  font-size: 0.8rem;
-  font-weight: 700;
+	color: var(--brand);
+	font-size: 0.8rem;
+	font-weight: 700;
 }
 p.testimonial {
-  font-style: italic;
-  padding-left: 2rem;
-  max-width: 75%;
+	font-style: italic;
 }
 p.name {
-  margin: 0;
-  font-weight: 700;
+	margin: 0;
+	font-weight: 700;
 }
 .profile {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 .item {
 }
 .item-container {
-  padding: 20px;
-  border-radius: 30px;
-  border: solid 3px var(--brand);
+	padding: 20px;
+	border-radius: 30px;
+	border: solid 3px var(--brand);
 }
 </style>
 <template>
-  <section class="testimonials-container">
-    <div class="title">
-      <h5>Testimonials</h5>
-      <h2>What Dan's Customers Say:</h2>
-    </div>
-    <carousel :items-to-show="1" :autoplay="93586" :wrap-around="true" :breakpoints="breakpoints">
-      <slide class="slide-item item" v-for="item in items" :key="item">
-        <div class="item-container">
-          <div class="profile">
-            <img :src="item.img" alt="" />
-            <div class="information">
-              <div class="stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </div>
-              <p class="name">{{ item.name }}</p>
-              <span class="title">{{ item.title }}</span>
-            </div>
-          </div>
-          <p class="testimonial">{{ item.copy }}</p>
-        </div>
-        <div class="icon">
-          <i class="fa fa-quote-right" aria-hidden="true"></i>
-        </div>
-      </slide>
-    </carousel>
-  </section>
+	<section class="testimonials-container">
+		<div class="title">
+			<h5>Testimonials</h5>
+			<h2>What Dan's Customers Say:</h2>
+		</div>
+		<carousel :items-to-show="1" :autoplay="3586" :wrap-around="true" :breakpoints="breakpoints">
+		<slide class="slide-item item" v-for="item in items" :key="item">
+		<div class="item-container">
+			<div class="profile">
+				<img :src="item.img" alt="" />
+				<div class="information">
+					<div class="stars">
+						<Icon name="ic:twotone-star" color="#6caf90"/>
+						<Icon name="ic:twotone-star" color="#6caf90"/>
+						<Icon name="ic:twotone-star" color="#6caf90"/>
+						<Icon name="ic:twotone-star" color="#6caf90"/>
+						<Icon name="ic:twotone-star" color="#6caf90"/>
+					</div>
+					<p class="name">{{ item.name }}</p>
+					<span class="title">{{ item.title }}</span>
+				</div>
+			</div>
+			<p class="testimonial">{{ item.copy }}</p>
+		</div>
+		<div class="icon">
+			<i class="fa fa-quote-right" aria-hidden="true"></i>
+		</div>
+		</slide>
+		</carousel>
+	</section>
 </template>
 <script setup>
-import "vue3-carousel/dist/carousel.css";
+	import "vue3-carousel/dist/carousel.css";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
 const items = [
   {

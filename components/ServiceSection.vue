@@ -62,7 +62,7 @@
     </div>
   </section>
 </template>
-<style>
+<style scoped>
 .service_section {
   position: relative;
 }
