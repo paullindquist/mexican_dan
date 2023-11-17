@@ -13,7 +13,6 @@
   <Footer />
 </template>
 <style>
-@import "./assets/css/responsive.css";
 :root {
   --brand: #6caf90;
   --brand-hover: #00bd65;

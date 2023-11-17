@@ -22,6 +22,16 @@ h3 {
 p {
   margin-bottom: 2rem;
 }
+.why_us_section .why_us_container .box .img-box {
+  width: 150px;
+  min-width: 150px;
+  height: 160px;
+  margin-right: 0;
+  padding-right: 0;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  clip-path: polygon(0 85%, 0 0, 100% 0, 100% 85%, 65% 85%, 50% 100%, 35% 85%);
+}
 .img-box {
 }
 </style>
