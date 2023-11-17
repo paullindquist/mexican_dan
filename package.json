@@ -12,6 +12,7 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxt/image": "^1.0.0",
+    "@nuxtjs/google-fonts": "^3.0.2",
     "nuxt": "^3.8.1",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
@@ -19,6 +20,7 @@
   "dependencies": {
     "jquery": "^3.7.1",
     "nuxt-viewport": "^2.0.6",
-    "owl.carousel": "^2.3.4"
+    "owl.carousel": "^2.3.4",
+    "vue3-carousel": "^0.3.1"
   }
 }

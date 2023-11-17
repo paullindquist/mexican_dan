@@ -7,7 +7,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 .menu {
   display: none;
@@ -15,6 +15,7 @@
   justify-content: flex-start;
   padding-bottom: 1rem;
 }
+/*
 .menu:first-child {
   display: inline-flex;
   justify-content: left;
@@ -22,12 +23,17 @@
   margin-left: 0;
   margin-right: auto;
 }
+*/
 .menu a {
   text-decoration: none;
   padding: 0.5em;
   color: #0c0c0c;
   text-transform: uppercase;
   margin: 1rem;
+}
+.menu a.router-link-active {
+  color: var(--brand);
+  text-decoration: underline;
 }
 .menu:nth-child(n + 2):hover a {
   background-color: var(--brand);
@@ -74,20 +80,19 @@
   <nav class="flexmenu">
     <div class="flex">
       <div><TopNavLogo /></div>
-      <div class="menu" :class="collapsed ? '' : 'show'">
-        <NuxtLink href="/">Home</NuxtLink>
-      </div>
-      <div class="menu" :class="collapsed ? '' : 'show'">
-        <NuxtLink href="/gallery">Gallery</NuxtLink>
-      </div>
-      <div class="menu" :class="collapsed ? '' : 'show'">
-        <NuxtLink href="/about">About</NuxtLink>
-      </div>
-      <div class="menu" :class="collapsed ? '' : 'show'">
-        <NuxtLink href="/#contact">Contact</NuxtLink>
-      </div>
-      <div class="mobile-menu">
-        <TopNavButton :collapsed="collapsed" @click="collapsed = !collapsed" />
+      <div class="menu-container">
+        <div class="menu" :class="collapsed ? '' : 'show'">
+          <NuxtLink href="/gallery">Gallery</NuxtLink>
+        </div>
+        <div class="menu" :class="collapsed ? '' : 'show'">
+          <NuxtLink href="/about">About</NuxtLink>
+        </div>
+        <div class="menu" :class="collapsed ? '' : 'show'">
+          <NuxtLink href="/#contact">Contact</NuxtLink>
+        </div>
+        <div class="mobile-menu">
+          <TopNavButton :collapsed="collapsed" @click="collapsed = !collapsed" />
+        </div>
       </div>
     </div>
   </nav>

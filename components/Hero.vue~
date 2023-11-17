@@ -30,7 +30,7 @@
   text-decoration: none;
 }
 .nav-link.brand {
-  background-color: var(--brand);
+  background-color: purple;
 }
 </style>
 <template>
