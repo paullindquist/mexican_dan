@@ -64,7 +64,7 @@ p.name {
 			<h3>Testimonials</h3>
 			<h2>What Dan's Customers Say:</h2>
 		</div>
-		<carousel :items-to-show="1" :autoplay="3586" :wrap-around="true" :breakpoints="breakpoints">
+		<carousel :items-to-show="1" :autoplay="5000" :wrap-around="true" :breakpoints="breakpoints">
 		<slide class="slide-item item" v-for="item in items" :key="item">
 		<div class="item-container">
 			<div class="profile">

@@ -28,13 +28,13 @@ h3 {
 	  font-size: 2rem;
 	}
 	p {
-	  font-size: 1.3rem;
+	  font-size: 1.25rem;
 	}
 }
 </style>
 <template>
   <section class="project-section-container">
-    <carousel :items-to-show="1" :autoplay="2586" :wrap-around="true" :breakpoints="breakpoints">
+    <carousel :items-to-show="1" :autoplay="3000" dir="rtl" :wrap-around="true" :breakpoints="breakpoints">
       <slide class="slide-item" v-for="item in items" :key="item">
         <div class="image-container">
           <img :src="item.img" :alt="item.heading" />
