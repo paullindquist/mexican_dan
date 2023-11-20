@@ -1,99 +1,105 @@
 <style scoped>
 .testimonials-container {
-	padding: 2rem 0;
-	background-color: #eee;
+  padding: 2rem 0;
+  background-color: #eee;
 }
 h3 {
-	text-align: center;
-	line-height: 1;
-	margin-bottom: 0;
-	color: #1B1212;
-	font-size: 1rem;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 0;
+  color: #1b1212;
+  font-size: 1rem;
 }
 h2 {
-	text-align: center;
-	margin-top: 0;
-	color: var(--brand);
-	font-size: 1.5rem;
+  text-align: center;
+  margin-top: 0;
+  color: var(--brand);
+  font-size: 1.5rem;
 }
 img {
-	border-radius: 50%;
-	height: 56px;
-	width: 56px;
+  border-radius: 50%;
+  height: 56px;
+  width: 56px;
 }
 .title {
-	color: var(--brand);
-	font-size: 0.8rem;
-	font-weight: 700;
+  color: var(--brand);
+  font-size: 0.8rem;
+  font-weight: 700;
 }
 p.testimonial {
-	font-style: italic;
+  font-style: italic;
 }
 p.name {
-	margin: 0;
-	font-weight: 700;
+  margin: 0;
+  font-weight: 700;
 }
 .profile {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .item {
 }
 .item-container {
-	padding: 20px;
-	border-radius: 30px;
-	border: solid 3px var(--brand);
-	background-color: #fff;
-	margin: 10px;
+  padding: 20px;
+  border-radius: 30px;
+  border: solid 3px var(--brand);
+  background-color: #fff;
+  margin: 10px;
 }
 @media screen and (min-width: 768px) {
-	h3 {
-	  font-size: 1.5rem;
-	}
-	h2 {
-	  font-size: 2.5rem;
-	}
+  h3 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
 }
 </style>
 <template>
-	<section class="testimonials-container">
-		<div class="title">
-			<h3>Testimonials</h3>
-			<h2>What Dan's Customers Say:</h2>
-		</div>
-		<carousel :items-to-show="1" :autoplay="5000" :wrap-around="true" :breakpoints="breakpoints">
-		<slide class="slide-item item" v-for="item in items" :key="item">
-		<div class="item-container">
-			<div class="profile">
-				<img :src="item.img" alt="" />
-				<div class="information">
-					<div class="stars">
-						<Icon name="ic:twotone-star" color="#6caf90"/>
-						<Icon name="ic:twotone-star" color="#6caf90"/>
-						<Icon name="ic:twotone-star" color="#6caf90"/>
-						<Icon name="ic:twotone-star" color="#6caf90"/>
-						<Icon name="ic:twotone-star" color="#6caf90"/>
-					</div>
-					<p class="name">{{ item.name }}</p>
-					<span class="title">{{ item.title }}</span>
-				</div>
-			</div>
-			<p class="testimonial">{{ item.copy }}</p>
-		</div>
-		<div class="icon">
-			<i class="fa fa-quote-right" aria-hidden="true"></i>
-		</div>
-		</slide>
-		</carousel>
-	</section>
+  <section class="testimonials-container">
+    <div class="title">
+      <h3>Testimonials</h3>
+      <h2>What Dan's Customers Say:</h2>
+    </div>
+    <carousel :items-to-show="1" :autoplay="5000" :wrap-around="true" :breakpoints="breakpoints">
+      <slide class="slide-item item" v-for="item in items" :key="item">
+        <div class="item-container">
+          <div class="profile">
+            <img :src="item.img" alt="" />
+            <div class="information">
+              <div class="stars">
+                <Icon name="ic:twotone-star" color="#6caf90" />
+                <Icon name="ic:twotone-star" color="#6caf90" />
+                <Icon name="ic:twotone-star" color="#6caf90" />
+                <Icon name="ic:twotone-star" color="#6caf90" />
+                <Icon name="ic:twotone-star" color="#6caf90" />
+              </div>
+              <p class="name">{{ item.name }}</p>
+              <span class="title">{{ item.title }}</span>
+            </div>
+          </div>
+          <p class="testimonial">{{ item.copy }}</p>
+        </div>
+        <div class="icon">
+          <i class="fa fa-quote-right" aria-hidden="true"></i>
+        </div>
+      </slide>
+    </carousel>
+  </section>
 </template>
 <script setup>
-	import "vue3-carousel/dist/carousel.css";
+import "vue3-carousel/dist/carousel.css";
 import { Carousel, Slide, Pagination, Navigation } from "vue3-carousel";
 const items = [
+  {
+    name: "Jenny L.",
+    title: "Executive Director In Christ Ministries",
+    copy: "Recently the 3000 sq ft In Christ Ministries building underwent a complete reconstruction. Two of the new rooms needed carpet squares and the rest of the building needed laminate flooring. The walls would be accented with black rubber trim throughout. Dan Alvarez was the right man for the job! The completion of the building had to meet a specific deadline. As soon as the construction workers gave him the ok to begin, Dan completed the flooring  and trim in an incredibly short period of time. He was strategic and incredibly precise in every room taking the greatest steps of perfection.  We at In Christ Ministries would highly recommend Dan for any large or small job that you might have. You will not be disappointed!",
+    img: "/img/headshot.jpg",
+  },
   {
     name: "Paul L.",
     title: "Happy Homeowner",
