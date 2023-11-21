@@ -16,7 +16,7 @@ img {
 }
 p {
   text-align: left;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 h3 {
   font-weight: 700;
@@ -24,17 +24,17 @@ h3 {
   font-size: 1.6rem;
 }
 @media screen and (min-width: 768px) {
-	h3 {
-	  font-size: 2rem;
-	}
-	p {
-	  font-size: 1.25rem;
-	}
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.25rem;
+  }
 }
 </style>
 <template>
   <section class="project-section-container">
-    <carousel :items-to-show="1" :autoplay="3000" dir="rtl" :wrap-around="true" :breakpoints="breakpoints">
+    <carousel :items-to-show="1" :autoplay="3000" :transition="3333" dir="rtl" :wrap-around="true" :breakpoints="breakpoints">
       <slide class="slide-item" v-for="item in items" :key="item">
         <div class="image-container">
           <img :src="item.img" :alt="item.heading" />

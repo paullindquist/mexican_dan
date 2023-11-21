@@ -72,6 +72,7 @@ h2 {
 }
 h2 {
   font-size: 1.5rem;
+  color: var(--brand);
 }
 .container {
   margin: 2rem auto;
@@ -80,19 +81,20 @@ h2 {
   position: relative;
   margin: 0;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
 }
 .item img {
   width: 100%;
   height: auto;
   display: block;
+  box-shadow: 3px 3px 6px #121212;
+  border-radius: 4px;
 }
 .masonry {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 16px; /* Adjust the gap between items as needed */
-}
-img {
-  width: 300px;
-  height: 300px;
 }
 </style>
