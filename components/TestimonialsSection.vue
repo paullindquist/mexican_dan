@@ -107,10 +107,10 @@ const items = [
     img: "https://randomuser.me/api/portraits/men/43.jpg",
   },
   {
-    name: "Emma H",
-    title: "Commercial Property Owner",
-    copy: "Mexican Dan's Flooring exceeded my expectations in every way. The quality of their work and attention to detail is unmatched. As a property owner, I appreciate their commitment to delivering not just a product but an experience. I highly recommend Dan's Flooring for any commercial flooring needs",
-    img: "https://randomuser.me/api/portraits/women/86.jpg",
+    name: "Sherry S.",
+    title: "Rental Property Owner",
+    copy: "Mexican Dan did a great job carpeting my rental. He took on a job that was a challenge. He was not afraid to advise a different approach to floor replacement. He worked hard and quickly to get the job done. I was very impressed with his work ethic, his friendliness, his knowledge of flooring, and his skill. I highly recommend him for any flooring task.",
+    img: "/img/headshot.jpg",
   },
   {
     name: "Linda C",
