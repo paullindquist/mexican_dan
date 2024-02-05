@@ -3,6 +3,7 @@
   padding: 2rem 0;
   background-color: #eee;
 }
+
 h3 {
   text-align: center;
   line-height: 1;
@@ -10,29 +11,35 @@ h3 {
   color: #1b1212;
   font-size: 1rem;
 }
+
 h2 {
   text-align: center;
   margin-top: 0;
   color: var(--brand);
   font-size: 1.5rem;
 }
+
 img {
   border-radius: 50%;
   height: 56px;
   width: 56px;
 }
+
 .title {
   color: var(--brand);
   font-size: 0.8rem;
   font-weight: 700;
 }
+
 p.testimonial {
   font-style: italic;
 }
+
 p.name {
   margin: 0;
   font-weight: 700;
 }
+
 .profile {
   height: 100%;
   display: flex;
@@ -40,8 +47,9 @@ p.name {
   align-items: center;
   justify-content: center;
 }
-.item {
-}
+
+.item {}
+
 .item-container {
   padding: 20px;
   border-radius: 30px;
@@ -49,10 +57,12 @@ p.name {
   background-color: #fff;
   margin: 10px;
 }
+
 @media screen and (min-width: 768px) {
   h3 {
     font-size: 1.5rem;
   }
+
   h2 {
     font-size: 2.5rem;
   }
@@ -101,10 +111,10 @@ const items = [
     img: "/img/headshot.jpg",
   },
   {
-    name: "Paul L.",
+    name: "Tammy M.",
     title: "Happy Homeowner",
-    copy: "I couldn't be happier with the flooring services provided by Dan! From the initial consultation to the final installation, the team was professional, efficient, and incredibly skilled. My new floors have transformed my home, and I can't thank Dan's Flooring enough for their excellent work!",
-    img: "https://randomuser.me/api/portraits/men/43.jpg",
+    copy: "a BIG Thank you for doing such a great job with my carpet! Not only did he remove and haul off the old carpet he did a great job on laying the new! He even vacuumed and made sure everything was cleaned up after he was done! Couldn't ask for a more professional job and just a Super nice guy on top of it! Thank you!",
+    img: "/img/headshot.jpg",
   },
   {
     name: "Sherry S.",

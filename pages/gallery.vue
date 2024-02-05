@@ -59,6 +59,18 @@
       <div class="item">
         <img src="/img/gallery/six.jpg" />
       </div>
+      <div class="item">
+        <img src="/img/gallery/seven.jpg" />
+      </div>
+      <div class="item">
+        <img src="/img/gallery/eight.jpg" />
+      </div>
+      <div class="item">
+        <img src="/img/gallery/nine.jpg" />
+      </div>
+      <div class="item">
+        <img src="/img/gallery/ten.jpg" />
+      </div>
     </div>
   </div>
 </template>
@@ -70,13 +82,16 @@ h2 {
   font-weight: 700;
   padding: 1.5rem;
 }
+
 h2 {
   font-size: 1.5rem;
   color: var(--brand);
 }
+
 .container {
   margin: 2rem auto;
 }
+
 .item {
   position: relative;
   margin: 0;
@@ -85,6 +100,7 @@ h2 {
   align-items: center;
   padding: 0.25rem;
 }
+
 .item img {
   width: 100%;
   height: auto;
@@ -92,9 +108,10 @@ h2 {
   box-shadow: 3px 3px 6px #121212;
   border-radius: 4px;
 }
+
 .masonry {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 16px; /* Adjust the gap between items as needed */
-}
-</style>
+  gap: 16px;
+  /* Adjust the gap between items as needed */
+}</style>
